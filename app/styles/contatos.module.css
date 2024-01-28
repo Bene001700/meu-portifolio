@@ -1,0 +1,78 @@
+.conteinerContatos {
+    padding: 60px 10px 10px 10px;
+    min-height: 100vh;
+}
+
+.contatos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contatos a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 14px;
+    border: 1.5px solid var(--cor-secundaria);
+    width: 120px;
+    height: 120px;
+    max-width: 150px;
+    max-width: 150px;
+    text-decoration: none;
+}
+
+.contatos a svg {
+    color: var(--cor-secundaria);
+    font-size: 50px;
+
+
+}
+
+.contatos a p {
+    color: var(--cor-de-destaque);
+    font-family: 'Roboto condensed', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.titulo_contatos {
+    font-family: 'Roboto condensed', Arial, Helvetica, sans-serif;
+    border-bottom: 1.5px solid var(--cor-de-destaque);
+    font-size: 24px;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+@media screen and (max-width:700px) {
+    .contatos {
+        display: grid;
+        grid-template-columns: auto auto; 
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1050px ) {
+    
+}
+
+@media screen and (min-width: 1051px) {
+
+    .contatos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contatos a:hover {
+        background: var(--cor-de-destaque);
+        transition: all 0.3s;
+        color: var(--cor-secundaria);
+    }    
+
+    .contatos a:hover p {
+        color: var(--cor-secundaria);
+    }
+}

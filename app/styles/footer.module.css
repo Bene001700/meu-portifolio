@@ -1,0 +1,8 @@
+.footer{
+    padding: 30px 10px 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secundaria);
+    font-family: 'Robot condensed', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}

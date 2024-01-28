@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 .sobre_mim{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 54px 10px 10px;
     font-family: 'Roboto Condensed', sans-serif;
     color: var(--cor-secundaria);
+    min-height: 100vh;
     
 }
 
@@ -30,4 +34,18 @@
 
 .area_atuacao{
     color: gray;
+}
+
+
+
+
+@media screen and (min-width: 1051px) {
+    .sobre_mim {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 60% 40%;
+
+        
+
+    }
 }

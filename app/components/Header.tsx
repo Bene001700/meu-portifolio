@@ -36,7 +36,7 @@ export default function Header(){
     
     useEffect(()=>{
 
-        menu()       
+        menu()      
         return ()=>{
             removeEventListener('click', menu)
         }
@@ -62,10 +62,10 @@ export default function Header(){
             </div>
             <div className={style.navegacao} id="conteinerMenu" >
                 <ul>
-                    <li><Link href={'#'}>Sobre Mim</Link></li>
-                    <li><Link href={'#'}>Projetos</Link></li>
-                    <li><Link href={'#'}>Habilidades</Link></li>
-                    <li><Link href={'#'}>Contatos</Link></li>
+                    <li><Link href={'#conteinerSobreMim'}>Sobre Mim</Link></li>
+                    <li><Link href={'#conteinerProjetos'}>Projetos</Link></li>
+                    <li><Link href={'#conteinerHabilidades'}>Habilidades</Link></li>
+                    <li><Link href={'#conteinerContatos'}>Contatos</Link></li>
                 </ul>
                 <div>
                     <Link href={'https://github.com/Bene001700'} target="_blank">
