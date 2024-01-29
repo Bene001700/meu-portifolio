@@ -9,12 +9,21 @@ import { useEffect } from "react";
 
 export default function Header(){
     
+
     const menu = ()=>{
         const menuHamburguer : HTMLElement | null = document.getElementById('menuHamburguer')
         const iconeCloseMenu :HTMLElement | null =  document.getElementById('iconeCloseMenu')
         const conteinerMenu : HTMLElement | null= document.getElementById('conteinerMenu')
+        const linksMenu : NodeList  =  document.querySelectorAll('#conteinerMenu ul li a')
 
-    
+        for (let i = 0; i < linksMenu.length; i++) {
+            linksMenu[i].addEventListener('click', ()=>{
+                if (conteinerMenu?.getAttribute('style') != null || conteinerMenu?.getAttribute('style') != "") {
+                    conteinerMenu?.removeAttribute('style')
+                }
+            })
+        }
+
         menuHamburguer?.addEventListener('click', ()=>{
             if (conteinerMenu != null) {
                 conteinerMenu.style.transform = 'translateX(-0%)'
