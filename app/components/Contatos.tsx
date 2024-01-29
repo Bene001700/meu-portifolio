@@ -21,7 +21,7 @@ export default function Contatos(){
                         <FaWhatsapp />
                         <p>Whatsapp</p>
                     </Link>
-                    <Link  href={'https://criarmeulink.com.br/u/1706359382'} target="_blank">
+                    <Link   href={"tel: +5587981143313"} target="_blank">
                         <FaPhone/>
                         <p>Telefone</p>
                     </Link>

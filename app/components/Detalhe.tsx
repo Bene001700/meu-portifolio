@@ -17,7 +17,7 @@ const verDetalhesProjetos = (n: number)=>{
             setProjeto({
                 descricao: 'Projeto do portifólio. Aqui apresento todos os meus trabalhos anterior, acadêmico e pessoal. Para a construção foi utilizado as tecnologias de desenvolvimento de interface da web: Typescript e React',
                 linkCodigo: 'https://github.com/Bene001700/meu-portifolio', 
-                linkSite:'Oi duas vezes'
+                linkSite:'https://www.ebenezersilva.com.br/'
             })
             if (detalhe!= null) {
                 detalhe.style.transform = 'translateX(0%)'
