@@ -27,7 +27,7 @@ const verDetalhesProjetos = (n: number)=>{
     
         case 1:
             setProjeto({
-                descricao: 'Projeto tela de login feita com HTML5 e CSS#. Nesse projeto eu construo uma tela de login com HTML e CSS',
+                descricao: 'Projeto tela de login feita com HTML5 e CSS3. Nesse projeto eu construo uma tela de login com HTML e CSS',
                 linkCodigo:'https://github.com/Bene001700/teladelogin',
                 linkSite: 'https://bene001700.github.io/teladelogin/'
             })
