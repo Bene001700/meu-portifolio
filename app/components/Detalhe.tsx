@@ -35,7 +35,28 @@ const verDetalhesProjetos = (n: number)=>{
                 detalhe.style.transform = 'translateX(0%)'
             }
             break;
-
+        
+        case 2:
+            setProjeto({
+                descricao: 'Blog preview card é um projeto do desafio Frontend Mentor desenvolvido com HTML5 E CSS3. Foi utilizado para construção do layout tags semânticas do HTML para estruturar o conteúdo e flexbox para estrutarar e organizar. ',
+                linkCodigo:'https://github.com/Bene001700/preview-card-main.git',
+                linkSite: 'https://preview-card-main-seven.vercel.app'
+            })
+            if (detalhe!= null) {
+                detalhe.style.transform = 'translateX(0%)'
+            }
+            break;
+            
+            case 3:
+            setProjeto({
+                descricao: 'Cartão de Qr Code construido com HTML e css usando conceitos de flexbox, mobile first e tags semântica.',
+                linkCodigo:'https://github.com/Bene001700/Frontend-Mentor-qr-code-componet.git',
+                linkSite: 'https://frontend-mentor-qr-code-componet.vercel.app/'
+            })
+            if (detalhe!= null) {
+                detalhe.style.transform = 'translateX(0%)'
+            }
+            break;
         default:
             break;
     }

@@ -30,6 +30,28 @@ export default function Projetos(){
                             <p>Tela de login - HTML5</p>
                         </div>
                     </div>
+                    <div className='projeto'>
+                        <Image
+                            src={'/Blog_preview_card.png'}
+                            width={450}
+                            height={200}
+                            alt={'Preview de card de blog'}
+                        />
+                        <div>
+                            <p>Blog preview card</p>
+                        </div>
+                    </div>
+                    <div className='projeto'>
+                        <Image
+                            src={'/Frontend_qr_code.png'}
+                            width={450}
+                            height={200}
+                            alt={'Card de qrcode'}
+                        />
+                        <div>
+                            <p>Card de qr code </p>
+                        </div>
+                    </div>
                 </div>                
             </section>
         </>
