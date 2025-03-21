@@ -55,39 +55,43 @@ export default function Header(){
     
 
     return <>
-        <header className={style.header} id="header">
-            <div className={style.logo}>
-                <Image
-                src={'/logo-ebenezer.png'}
-                alt={'Logo Ebenezer'}
-                width={183}
-                height={49}
-                />
-            </div>
-            <div className={style.menu_hamburguer} id="menuHamburguer" >
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div className={style.navegacao} id="conteinerMenu" >
-                <ul>
-                    <li><Link href={'#conteinerSobreMim'}>Sobre Mim</Link></li>
-                    <li><Link href={'#conteinerProjetos'}>Projetos</Link></li>
-                    <li><Link href={'#conteinerHabilidades'}>Habilidades</Link></li>
-                    <li><Link href={'#conteinerContatos'}>Contatos</Link></li>
-                </ul>
-                <div>
-                    <Link href={'https://github.com/Bene001700'} target="_blank">
-                        <FaGithub />
-                    </Link>
-                    <Link href={'https://www.linkedin.com/in/ebenezer-silva/'} target="_blank">
-                        <FaLinkedin/>
-                    </Link>
-                    <div id="iconeCloseMenu">
-                        <FaRegWindowClose/>
-                    </div>                
+        <header  id="header">
+            <nav className={style.header}>
+                <Link 
+                    href={'#conteinerSobreMim'} 
+                    className={style.logo}>
+                    <Image
+                    src={'/logo-ebenezer.png'}
+                    alt={'Logo Ebenezer'}
+                    width={183}
+                    height={49}
+                    />
+                </Link>
+                <div className={style.menu_hamburguer} id="menuHamburguer" >
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-            </div>
+                <div className={style.navegacao} id="conteinerMenu" >
+                    <ul>
+                        <li><Link href={'#conteinerSobreMim'}>Sobre Mim</Link></li>
+                        <li><Link href={'#conteinerProjetos'}>Projetos</Link></li>
+                        <li><Link href={'#conteinerHabilidades'}>Habilidades</Link></li>
+                        <li><Link href={'#conteinerContatos'}>Contatos</Link></li>
+                    </ul>
+                    <div>
+                        <Link href={'https://github.com/Bene001700'} target="_blank">
+                            <FaGithub />
+                        </Link>
+                        <Link href={'https://www.linkedin.com/in/ebenezer-silva/'} target="_blank">
+                            <FaLinkedin/>
+                        </Link>
+                        <div id="iconeCloseMenu">
+                            <FaRegWindowClose/>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </header>
     </>
 }
