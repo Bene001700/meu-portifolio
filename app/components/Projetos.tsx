@@ -54,7 +54,7 @@ export default function Projetos(){
                     </div>
                     <div className='projeto'>
                         <Image
-                            src={'/Simple_omelette_recipe.png'}
+                            src={'/Simple_omelette_recipe.jpg'}
                             width={450}
                             height={200}
                             alt={'Page from Simple omelette recipe'}
