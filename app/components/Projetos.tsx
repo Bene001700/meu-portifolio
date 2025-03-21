@@ -52,6 +52,17 @@ export default function Projetos(){
                             <p>Card de qr code </p>
                         </div>
                     </div>
+                    <div className='projeto'>
+                        <Image
+                            src={'/Simple_omelette_recipe.png'}
+                            width={450}
+                            height={200}
+                            alt={'Page from Simple omelette recipe'}
+                        />
+                        <div>
+                            <p>Recipe page </p>
+                        </div>
+                    </div>
                 </div>                
             </section>
         </>

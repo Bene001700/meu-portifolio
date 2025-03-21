@@ -57,6 +57,16 @@ const verDetalhesProjetos = (n: number)=>{
                 detalhe.style.transform = 'translateX(0%)'
             }
             break;
+            case 4:
+            setProjeto({
+                descricao: 'Simple omelette recipe é um projeto do desafio Frontend Mentor desenvolvido com HTML5 e CSS3. Este projeto apresenta uma receita de omelete simples. Foi utilizado para construção do layout tags semânticas do HTML para estruturar o conteúdo e flexbox para organizar os elementos.',
+                linkCodigo:'https://github.com/Bene001700/recipe-page-main.git',
+                linkSite: 'https://recipe-page-main-one-jet.vercel.app/'
+            })
+            if (detalhe!= null) {
+                detalhe.style.transform = 'translateX(0%)'
+            }
+            break;
         default:
             break;
     }
