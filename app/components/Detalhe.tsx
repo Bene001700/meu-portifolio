@@ -67,6 +67,16 @@ const verDetalhesProjetos = (n: number)=>{
                 detalhe.style.transform = 'translateX(0%)'
             }
             break;
+            case 5:
+            setProjeto({
+                descricao: 'Componente de página de produto construido com HTML e css usando conceitos de flexbox, mobile first e tags semântica. E projeto responsivo foi desenvolvido com HTML5 e CSS3 e utilizando de flexbox e Grid Layout para estruturar e organizar os elementos.',
+                linkCodigo:'https://github.com/Bene001700/product-preview-card-component-main.git',
+                linkSite: 'https://product-preview-card-component-main-two-rho.vercel.app/'
+            })
+            if (detalhe!= null) {
+                detalhe.style.transform = 'translateX(0%)'
+            }
+            break;
         default:
             break;
     }

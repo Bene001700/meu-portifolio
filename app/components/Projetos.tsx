@@ -63,6 +63,17 @@ export default function Projetos(){
                             <p>Recipe page </p>
                         </div>
                     </div>
+                    <div className='projeto'>
+                        <Image
+                            src={'/Pagina_de_produto.png'}
+                            width={450}
+                            height={200}
+                            alt={'Pagina de produto'}
+                        />
+                        <div>
+                            <p>Product preview card component</p>
+                        </div>
+                    </div>
                 </div>                
             </section>
         </>
